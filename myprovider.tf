@@ -8,5 +8,6 @@ terraform {
 }
 
 provider "local" {
+alias = "first_local"
   # Configuration options
 }

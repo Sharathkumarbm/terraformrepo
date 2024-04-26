@@ -8,5 +8,7 @@ terraform {
 }
 
 provider "local" {
-  # Configuration options
+  alias = "second_local"
+  # other configuration settings
 }
+
